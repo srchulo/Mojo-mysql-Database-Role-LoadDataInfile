@@ -51,12 +51,27 @@
          "requires" : {
             "Test::Exception" : "0",
             "Test::MockModule" : "0",
-            "Test::More" : "0.96"
+            "Test::More" : "0.96",
+            "Test::Pod" : "0"
          }
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/srchulo/Mojo-mysql-Database-Role-LoadDataInfile/issues"
+      },
+      "homepage" : "https://github.com/srchulo/Mojo-mysql-Database-Role-LoadDataInfile",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/srchulo/Mojo-mysql-Database-Role-LoadDataInfile.git",
+         "web" : "https://github.com/srchulo/Mojo-mysql-Database-Role-LoadDataInfile"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Adam Hopkins <violapiratejunky@gmail.com>"
+   ],
    "x_generated_by_perl" : "v5.30.0",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.13",
    "x_static_install" : 1
