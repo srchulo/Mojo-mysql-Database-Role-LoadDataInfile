@@ -13,7 +13,9 @@ perl:
   - "5.12"
   - "5.10"
 addons:
-      mysql: "5.7"
+    mysql: "5.7"
+services:
+    - mysql
 before_script:
     - mysql -e 'create database load_data_infile default character set utf8 default collate utf8_general_ci;'
 before_install:
