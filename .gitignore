@@ -1,0 +1,8 @@
+/Mojo-mysql-Database-Role-LoadDataInfile-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
+.vstags
